@@ -9,3 +9,17 @@ function newEvenArr(arr){
 }
 
 console.log(newEvenArr(arr));
+
+// Using for loop
+
+function newEvenArr(arr) {
+    let result = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            result.push(arr[i]);
+        }
+    }
+    return result;
+}
+
+console.log(newEvenArr(arr));
