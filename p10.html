@@ -1,0 +1,19 @@
+<!-- Change the text of a pragraph on a webpage using Javascript. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">Old Paragraph Text</p>
+    <script>
+        // document.getElementById("para").innerHTML = "New Paragraph";
+        let paragraph = document.getElementById("para");
+        console.log(paragraph);
+        paragraph.textContent = "New Paragraph Text";
+    </script>
+</body>
+</html>

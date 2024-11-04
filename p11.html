@@ -1,0 +1,20 @@
+<!-- Create a button dynamically and add it to the webpage. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="button-container"></div>
+    <script>
+        let container = document.getElementById("button-container");
+        console.log(container);
+        let button = document.createElement("button");
+         button.textContent = "Click";
+         container.appendChild(button);
+    </script>
+</body>
+</html>
