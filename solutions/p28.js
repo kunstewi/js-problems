@@ -1,0 +1,1 @@
+// Use promises to load multiple images asynchronously and webpage.

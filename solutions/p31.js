@@ -1,0 +1,1 @@
+// Create an image gallery using dynamically generated elements.

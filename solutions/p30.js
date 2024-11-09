@@ -1,0 +1,1 @@
+// Implement an async function to fetch data from an API and handle errors using try/catch.

@@ -1,0 +1,1 @@
+// Destructure an object to get its properties.

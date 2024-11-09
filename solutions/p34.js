@@ -1,0 +1,1 @@
+// Implement a click event on a parent element that triggers different actions based on which child element was clicked.
