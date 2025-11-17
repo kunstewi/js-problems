@@ -2,10 +2,10 @@
 
 let arr = [10, 15, 20, 25];
 
-function doubleArrayElements(){
-    return arr.map((num) => {
-        return num * 2;
-    })
+function doubleArrayElements() {
+  return arr.map((num) => {
+    return num * 2;
+  });
 }
 
 console.log(doubleArrayElements(arr));

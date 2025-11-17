@@ -2,10 +2,8 @@
 
 let arr = [10, 15, 20, 25];
 
-function findLargestElement(arr){
-    return arr.reduce((max,current) =>
-        current > max ? current : max)
-    
+function findLargestElement(arr) {
+  return arr.reduce((max, current) => (current > max ? current : max));
 }
 
 let reduce = findLargestElement(arr);

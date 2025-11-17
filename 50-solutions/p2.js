@@ -4,8 +4,8 @@
 
 console.log("Using for loop");
 
-for(let i =1; i <= 5; i++){
-    console.log(i);
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
 }
 
 // using while loop
@@ -14,9 +14,9 @@ console.log("Using while loop");
 
 let i = 1;
 
-while(i <= 5){
-    console.log(i);
-    i++;
+while (i <= 5) {
+  console.log(i);
+  i++;
 }
 
 // using do-while loop
@@ -25,9 +25,7 @@ console.log("Using do-while loop");
 
 let j = 1;
 
-do{
-    console.log(j);
-    j++
-}
-while(j <= 5);
-
+do {
+  console.log(j);
+  j++;
+} while (j <= 5);

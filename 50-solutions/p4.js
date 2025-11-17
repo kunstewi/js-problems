@@ -2,12 +2,12 @@
 
 // Area of a rectangle
 
-function rectangleArea(length, width){
-    return length * width;
+function rectangleArea(length, width) {
+  return length * width;
 }
 
-console.log(rectangleArea(5,3));
+console.log(rectangleArea(5, 3));
 
-let area = rectangleArea(6,3);
+let area = rectangleArea(6, 3);
 
 console.log(area);

@@ -2,8 +2,8 @@
 
 let str = "Hello World!";
 
-function reversedString(str){
-    return str.split("").reverse().join("")
+function reversedString(str) {
+  return str.split("").reverse().join("");
 }
 
 console.log(reversedString(str));
